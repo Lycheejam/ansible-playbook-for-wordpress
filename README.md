@@ -1,0 +1,2 @@
+Wordpress用ansible playbookの建設予定地
+
