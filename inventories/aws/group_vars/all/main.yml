@@ -1,0 +1,26 @@
+---
+user_shell: /bin/bash
+
+user_list:
+  - name: lycheejam
+    uid: 7000
+    group: lycheejam
+    authorized_keys:
+      - key: 'https://github.com/lycheejam.keys'
+        exclusive: true
+
+authorized_key_list: "{{ user_list }}"
+
+group_list:
+  - name: administrator
+    gid: 3000
+  - name: lycheejam
+    gid: 4000
+
+sudo_grouplist:
+  - name: administrator
+    sudo:
+      hosts: ALL
+      as: ALL
+      commands: ALL
+      nopasswd: true
