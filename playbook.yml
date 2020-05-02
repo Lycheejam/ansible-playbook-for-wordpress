@@ -1,5 +1,5 @@
 ---
-- hosts: [web]
+- hosts: [all]
   become: true
   roles:
     - role: Lycheejam.ansible-role-amazonlinux2
@@ -13,3 +13,10 @@
     - role: GROG.sudo
       tags: sudo
   tags: init
+
+- hosts: [web]
+  become: true
+  roles:
+    - role: Lycheejam.ansible-role-wordpress
+      tags: wordpress
+  tags: install_wordpress

@@ -24,3 +24,10 @@ sudo_grouplist:
       as: ALL
       commands: ALL
       nopasswd: true
+
+wp_db_name: ""
+wp_db_user: ""
+wp_db_password: ""
+wp_db_host: ''
+wp_table_prefix: 'wp_'
+wp_sitename: "sample"

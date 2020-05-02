@@ -14,3 +14,7 @@
 - src: https://github.com/Lycheejam/ansible-role-amazonlinux2
   name: Lycheejam.ansible-role-amazonlinux2
   version: master
+
+- src: https://github.com/Lycheejam/ansible-role-wordpress
+  name: Lycheejam.ansible-role-wordpress
+  version: master
