@@ -1,0 +1,20 @@
+---
+- role: GROG.group
+  version: v1.1.2
+
+- role: GROG.user
+  version: v1.3.0
+
+- role: GROG.authorized-key
+  version: v1.1.5
+
+- role: GROG.sudo
+  version: v1.4.4
+
+- src: https://github.com/Lycheejam/ansible-role-amazonlinux2
+  name: Lycheejam.ansible-role-amazonlinux2
+  version: master
+
+- src: https://github.com/Lycheejam/ansible-role-wordpress
+  name: Lycheejam.ansible-role-wordpress
+  version: master
